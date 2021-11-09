@@ -26,3 +26,11 @@ function printId(id: number | string): void {
 function printStringOrNumber(): string | number {
   return 'a string';
 }
+
+type Hydrogen = {
+  maxLength: number | string;
+};
+
+interface Helium {
+  maxLength: number | boolean;
+}
